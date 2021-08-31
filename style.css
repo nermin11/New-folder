@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.container {
+	width: 940px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(#d5d5d5, #fff);
+}
+nav {
+	padding: 37px 0 25px 0;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	float: right;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0 10px 8px 10px;
+	font: .7em Tahoma;
+	color: #b7b7b7;
+	border-left: 1px dotted #d6d6d6;
+}
+nav ul li a {
+	display: block;
+	font: bold .9rem Georgia;
+	color: #666;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+main {
+	background: #fff url('img/mainbg.jpg') top repeat-x;
+	height: 1280px;
+}
+main .container {
+	padding: 22px 0 0 0;
+}
+#slider {
+	height: 340px;
+	border: 1px solid #c6c6c6;
+	border-radius: 7px;
+	background: url('img/slider.jpg') center;
+}
+h1 {
+  font: bold 1.5em Georgia;
+  color: #000;
+  text-align: center;
+}
+h2 {
+	font: 1.3em Georgia;
+	color:#418db1;
+}
+h6{
+	font: 0.75em Helvetica;
+	color:#929292;
+}
+hr {
+	border: 0;
+	border-top: 1px solid #e5e5e5;
+}
+.row {
+	overflow: auto;
+}
+.col {
+	width: 300px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+.col:last-child {
+	margin: 0;
+}
+article img {
+	padding: 6px;
+	background: #f3f3f3;
+	border: 1px solid #e1e1e1;
+	border-radius: 4px;
+}
+
+ button{
+	background: linear-gradient (#e1e1e1, #d8d8d8);
+	color: #016999;
+	border-radius:3px;
+	border:1px solid #e0e0e0;
+}
+h3{
+	font: 1.12em Geogia;
+	color: black;
+	margin-bottom: 5px;
+}
+.xett{
+	border:0;
+	border-top: 2px dashed #d3d3d3;
+}
+main div p{
+	font: 0.75em Helvetica;
+	color:#444444;
+}
+main div h2{
+	font:1.125em GillSansMT-Bo;
+	color: #444444;
+}
+input {
+	height:29px;
+	width:289px;
+	margin: 10px;
+}
+.duyme{
+	background: linear-gradient(#4e84bd, #32679c);
+	color: white;
+	width: 160px;
+	height: 26px;
+	margin: 10px 0 0 0;
+}
+textarea{
+	width:297px;
+	height: 133px;
+	margin: 20px 0 0 5px;
+}
+.tek{
+	float:left;
+}
+.cut{
+		font: 0.75 em Helvetica;
+		color:#898989;
+		line-height:19px;
+}
+
+
+footer {
+	background: url('img/mainbg.jpg') bottom repeat-x;
+	height:166px;
+
+}
+footer div p{
+	font: 0.7em Helvetica;
+	color:#797979;
+	
+}
+#ikinci {
+	width:400px;
+	float:right
+}
+#birinci{
+	width:400px;
+	float:left;
+}
